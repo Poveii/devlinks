@@ -1,4 +1,4 @@
-![Project Show Up Image](https://user-images.githubusercontent.com/79858234/177396884-7bf8c97e-ff0b-4e4b-86d8-3ecebafb064c.png)
+<div style="display: flex; align-items: center; justify-content: center;"><img src="https://user-images.githubusercontent.com/79858234/177436911-ec47205f-8996-4ca2-85c7-9c8dcfe99a3d.gif" alt="DevLinks Show Up Gif" /></div>
 
 # DevLinks
 An project under development to help developers organize their social networks and contacts in one single place.
