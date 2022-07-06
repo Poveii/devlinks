@@ -17,12 +17,44 @@ a {
 }
 
 /* ======== VARIABLES ======== */
-:root {
+html {
   /* Color Variables */
-  --primary-color: #3D3B30;
-  --auxiliary-primary-color: #e2dd4f;
-  --secondary-color: #DFEEF6;
-  --tertiary-color: #2B2B26;
+  --primary-color: #3d3b30;
+  --auxiliary-color: #e2dd4f;
+  --background-color: #eeeffa;
+  --text-color: #2b2b26;
+}
+
+body.blue {
+  /* Color Variables */
+  --primary-color: #4263eb;
+  --auxiliary-color: #364fc7;
+  --background-color: #edf2ff;
+  --text-color: #00082f;
+}
+
+body.dark-blue {
+  /* Color Variables */
+  --primary-color: #4263eb;
+  --auxiliary-color: #364fc7;
+  --background-color: #00082f;
+  --text-color: #edf2ff;
+}
+
+body.pink {
+  /* Color Variables */
+  --primary-color: #d6336c;
+  --auxiliary-color: #a61e4d;
+  --background-color: #fff0f6;
+  --text-color: #1f000b;
+}
+
+body.dark-pink {
+  /* Color Variables */
+  --primary-color: #d6336c;
+  --auxiliary-color: #a61e4d;
+  --background-color: #1f000b;
+  --text-color: #fff0f6;
 }
 
 /* ======== LAYOUT ======== */
@@ -31,8 +63,9 @@ body {
   margin: 40px auto 50px;
 
   text-align: center;
-  background-color: var(--secondary-color);
   font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 /* ======== HEADER ======== */
@@ -42,7 +75,6 @@ header {
 
 header h1 {
   font-size: 26px;
-  color: var(--tertiary-color);
 }
 
 /* ======== MAIN ======== */
@@ -73,8 +105,6 @@ img.avatar {
 
   font-weight: 600;
   font-size: 32px;
-
-  color: var(--tertiary-color);
 }
 
 #nickname {
@@ -82,7 +112,6 @@ img.avatar {
   font-weight: 400;
   font-size: 18px;
 
-  color: var(--tertiary-color);
   opacity: 0.8;
 }
 
@@ -111,16 +140,14 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: var(--auxiliary-primary-color);
-  color: #3D3B30;
+  background-color: var(--auxiliary-color);
 
   transform: translateY(-1.5px);
 }
 
 ul li a:hover .ph-behance-logo-fill,
 ul li a:hover .ph-github-logo-fill {
-  background-color: var(--primary-color);
-  color: var(--auxiliary-primary-color);
+  color: var(--auxiliary-color);
 }
 
 /* Adjustment to respect the design */
@@ -132,7 +159,7 @@ i {
 
 .ph-behance-logo-fill,
 .ph-github-logo-fill {
-  background-color: #ffffff;
+  background-color: white;
   border-radius: 4px;
   color: var(--primary-color);
   padding: 1.5px 2.5px;
@@ -150,7 +177,7 @@ i {
 footer {
   font-weight: 500;
   font-size: 12px;
-  color: var(--tertiary-color);
+  color: var(--text-color);
   opacity: 0.6;
 
   transition: opacity 600ms ease-in;
@@ -161,5 +188,5 @@ footer:hover {
 }
 
 footer a {
-  color: var(--tertiary-color);
+  color: var(--text-color);
 }
