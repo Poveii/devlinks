@@ -3,6 +3,10 @@
 # DevLinks
 An project under development to help developers organize their social networks and contacts in one single place.
 
+## Layout
+- <strong><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" style="width: 14px;"/> Figma File: <a href="https://www.figma.com/community/file/1125601602315782027">here</a></strong>
+- <p>By Jonas Milan (<a href="https://www.instagram.com/jonasmilancc/">@jonasmilancc</a>)</p>
+
 ## Tecnologies
 - <strong><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 Icon" style="width: 14px;"/> HTML</strong>
 - <strong><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 Icon" style="width: 14px;"/> CSS</strong>
