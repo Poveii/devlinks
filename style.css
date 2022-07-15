@@ -19,6 +19,22 @@ a {
 /* ======== VARIABLES ======== */
 html {
   /* Color Variables */
+  --primary-color: #4263eb;
+  --auxiliary-color: #364fc7;
+  --background-color: #edf2ff;
+  --text-color: #00082f;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    --primary-color: #4263eb;
+    --auxiliary-color: #364fc7;
+    --background-color: #00082f;
+    --text-color: #edf2ff;
+  }
+} */
+
+body.default {
   --primary-color: #3d3b30;
   --auxiliary-color: #e2dd4f;
   --background-color: #eeeffa;
@@ -26,7 +42,6 @@ html {
 }
 
 body.blue {
-  /* Color Variables */
   --primary-color: #4263eb;
   --auxiliary-color: #364fc7;
   --background-color: #edf2ff;
@@ -34,7 +49,6 @@ body.blue {
 }
 
 body.dark-blue {
-  /* Color Variables */
   --primary-color: #4263eb;
   --auxiliary-color: #364fc7;
   --background-color: #00082f;
@@ -42,7 +56,6 @@ body.dark-blue {
 }
 
 body.pink {
-  /* Color Variables */
   --primary-color: #d6336c;
   --auxiliary-color: #a61e4d;
   --background-color: #fff0f6;
@@ -50,7 +63,6 @@ body.pink {
 }
 
 body.dark-pink {
-  /* Color Variables */
   --primary-color: #d6336c;
   --auxiliary-color: #a61e4d;
   --background-color: #1f000b;
@@ -152,7 +164,7 @@ ul li a:hover .ph-github-logo-fill {
 
 /* Adjustment to respect the design */
 
-i {
+ul li a i {
   font-size: 24px;
   margin-right: 4px;
 }
@@ -189,4 +201,32 @@ footer:hover {
 
 footer a {
   color: var(--text-color);
+}
+
+/* ======== TOGGLE THEME ======== */
+.dark-mode,
+.light-mode {
+  width: 38px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  border-radius: 6px;
+  margin-top: 24px;
+  margin-right: 16px;
+
+  background-color: var(--auxiliary-color);
+  color: white;
+
+  border: var(--auxiliary-color);
+}
+
+.dark-mode i,
+.light-mode i {
+  font-size: 28px;
 }
