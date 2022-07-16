@@ -25,7 +25,8 @@ An project under development to help developers organize their social networks a
   </strong>
 
 ## Features
-- [ ] Change username, bio, links, colors with Javascript
+- [x] Switch Dark/Light Theme and Colors with Javascript
+- [ ] Change username, bio, links
 - [ ] Possibility to log in with Github and have your own custom Devlinks
 - [ ] User can export HTML, CSS custom files to own his Github
 
