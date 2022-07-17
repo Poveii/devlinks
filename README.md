@@ -16,17 +16,21 @@ An project under development to help developers organize their social networks a
 
 ## Tecnologies
 - <strong>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 Icon" style="width: 14px;" /> 
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 Icon" style="width: 18px;" /> 
       HTML
   </strong>
 - <strong>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 Icon" style="width: 14px;" /> 
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 Icon" style="width: 18px;" /> 
       CSS
+  </strong>
+- <strong>
+     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript Icon" style="width: 16px;" /> 
+      Javascript
   </strong>
 
 ## Features
 - [x] Switch Dark/Light Theme and Colors with Javascript
-- [ ] Change username, bio, links
+- [ ] Change username, bio, links according Github Profile with Javascript
 - [ ] Possibility to log in with Github and have your own custom Devlinks
 - [ ] User can export HTML, CSS custom files to own his Github
 
