@@ -21,15 +21,23 @@ buttonToggleTheme.addEventListener("click", function () {
 });
 
 function giveRandomNumbers() {
-  return Math.floor(Math.random() * colorsName.length);
+  return Math.round(Math.random() * (colorsName.length - 2));
 }
 
 buttonChangeColor.addEventListener("click", function () {
+  const previousColor = document.body.className.includes("dark-")
+    ? document.body.className.split("-")[1]
+    : document.body.className; // if body has "dark-" in his class, return color name through split(), else only color name
+
+  const randomNumber = giveRandomNumbers();
+
+  const newColor = colorsName.filter((c) => c !== previousColor)[randomNumber]; // c = color
+
   if (document.body.className.includes("dark-")) {
     buttonChangeColor.style.backgroundColor,
-      (document.body.className = "dark-" + colorsName[giveRandomNumbers()]);
+      (document.body.className = "dark-" + newColor);
   } else {
     buttonChangeColor.style.backgroundColor,
-      (document.body.className = colorsName[giveRandomNumbers()]);
+      (document.body.className = newColor);
   }
 });
