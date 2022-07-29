@@ -170,6 +170,10 @@ img.avatar {
   border-radius: 50%;
 }
 
+img.avatar.dark-detail {
+  background-color: var(--auxiliary-color);
+}
+
 #container {
   width: 100%;
   margin-top: 24px;
