@@ -1,0 +1,130 @@
+/* ======== RESET ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ======== VARIABLES ======== */
+html {
+  /* Color Variables */
+  --primary-color: #4263eb;
+  --auxiliary-color: #364fc7;
+  --background-color: #edf2ff;
+  --text-color: #00082f;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    --primary-color: #4263eb;
+    --auxiliary-color: #364fc7;
+    --background-color: #00082f;
+    --text-color: #edf2ff;
+  }
+} */
+
+body.blue {
+  --primary-color: #4263eb;
+  --auxiliary-color: #364fc7;
+  --background-color: #edf2ff;
+  --text-color: #00082f;
+}
+
+body.dark-blue {
+  --primary-color: #4263eb;
+  --auxiliary-color: #364fc7;
+  --background-color: #00082f;
+  --text-color: #edf2ff;
+}
+
+body.pink {
+  --primary-color: #d6336c;
+  --auxiliary-color: #a61e4d;
+  --background-color: #fff0f6;
+  --text-color: #1f000b;
+}
+
+body.dark-pink {
+  --primary-color: #d6336c;
+  --auxiliary-color: #a61e4d;
+  --background-color: #1f000b;
+  --text-color: #fff0f6;
+}
+
+body.orange {
+  --primary-color: #f55e00;
+  --auxiliary-color: #d1580d;
+  --background-color: #fff6f0;
+  --text-color: #1f0c00;
+}
+
+body.dark-orange {
+  --primary-color: #f55e00;
+  --auxiliary-color: #d1580d;
+  --background-color: #291000;
+  --text-color: #fff6f0;
+}
+
+body.green {
+  --primary-color: #3b5f30;
+  --auxiliary-color: #2f4728;
+  --background-color: #f4fff0;
+  --text-color: #162412;
+}
+
+body.dark-green {
+  --primary-color: #3b5f30;
+  --auxiliary-color: #2f4728;
+  --background-color: #162412;
+  --text-color: #f4fff0;
+}
+
+body.red {
+  --primary-color: #a41623;
+  --auxiliary-color: #a61e29;
+  --background-color: #fff0f1;
+  --text-color: #3d0005;
+}
+
+body.dark-red {
+  --primary-color: #a41623;
+  --auxiliary-color: #a61e29;
+  --background-color: #3d0005;
+  --text-color: #fff0f1;
+}
+
+body.cyan {
+  --primary-color: #2a9d8f;
+  --auxiliary-color: #2c7a71;
+  --background-color: #f0fffd;
+  --text-color: #0c2e2a;
+}
+
+body.dark-cyan {
+  --primary-color: #2a9d8f;
+  --auxiliary-color: #2c7a71;
+  --background-color: #0c2e2a;
+  --text-color: #f0fffd;
+}
+
+body.yellow {
+  --primary-color: #e2b33c;
+  --auxiliary-color: #c29e42;
+  --background-color: #fcfff0;
+  --text-color: #29200b;
+}
+
+body.dark-yellow {
+  --primary-color: #e2b33c;
+  --auxiliary-color: #c29e42;
+  --background-color: #29200b;
+  --text-color: #fcfff0;
+}
