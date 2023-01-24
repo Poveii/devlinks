@@ -1,3 +1,9 @@
 body {
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
+
+.App {
+  width: 360px;
+  height: 712px;
+  margin-inline: auto;
+}
