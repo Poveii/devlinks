@@ -7,3 +7,11 @@ body {
   height: 712px;
   margin-inline: auto;
 }
+
+#profile {
+  text-align: center;
+}
+
+#profile img {
+  width: 112px;
+}
