@@ -9,6 +9,7 @@ function App() {
           src={Avatar}
           alt="Foto do Pablo Gabriel olhando pra câmera de camisa branca sorrindo sem mostrar os dentes, com um fundo azul por trás"
         />
+        <p>@poveii</p>
       </div>
     </div>
   );
