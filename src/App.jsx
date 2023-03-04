@@ -11,6 +11,21 @@ function App() {
         />
         <p>@poveii</p>
       </div>
+
+      <ul>
+        <li>
+          <a href="#">Meu currículo</a>
+        </li>
+        <li>
+          <a href="#">Meus artigos</a>
+        </li>
+        <li>
+          <a href="#">Meu portfólio</a>
+        </li>
+        <li>
+          <a href="#">Minhas redes sociais</a>
+        </li>
+      </ul>
     </div>
   );
 }
