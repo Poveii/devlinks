@@ -18,11 +18,12 @@ body {
 .App {
   width: 360px;
   height: 712px;
-  margin-inline: auto;
+  margin: 3.5rem auto 0;
 }
 
 #profile {
   text-align: center;
+  padding: 1.5rem;
 }
 
 #profile img {
