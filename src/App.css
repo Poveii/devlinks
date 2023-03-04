@@ -11,6 +11,12 @@ button {
   font-family: "Inter", sans-serif;
 }
 
+body,
+a,
+p {
+  color: #ffffff;
+}
+
 body {
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
@@ -33,5 +39,4 @@ body {
 #profile p {
   font-weight: 500;
   line-height: 1.5rem;
-  color: #ffffff;
 }
