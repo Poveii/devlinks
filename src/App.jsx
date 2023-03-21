@@ -26,6 +26,21 @@ function App() {
           <a href="#">Minhas redes sociais</a>
         </li>
       </ul>
+
+      <div id="social-links">
+        <a href="https://github.com/poveii">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/poveiii">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/poveii">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
     </div>
   );
 }
