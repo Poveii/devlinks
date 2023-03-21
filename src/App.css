@@ -1,21 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body,
-input,
-textarea,
-button {
-  font-family: "Inter", sans-serif;
-}
-
-body,
-a,
-p {
-  color: #ffffff;
-}
+@import "./reset.css";
 
 body {
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
