@@ -73,3 +73,25 @@ ul li a:hover {
   border-width: 1.5px;
   border-color: #ffffff;
 }
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  padding-block: 1.5rem;
+
+  font-size: 1.5rem;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+
+  border-radius: 9999px;
+  transition: background-color 0.2s;
+}
+
+#social-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
