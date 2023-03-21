@@ -22,8 +22,8 @@ body {
 }
 
 .App {
-  width: 360px;
-  height: 712px;
+  width: 22.5rem;
+  height: 44.5rem;
   margin: 3.5rem auto 0;
 }
 
@@ -33,10 +33,43 @@ body {
 }
 
 #profile img {
-  width: 112px;
+  width: 7rem;
 }
 
 #profile p {
   font-weight: 500;
   line-height: 1.5rem;
+}
+
+ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+
+  font-weight: 500;
+  text-decoration: none;
+
+  transition: background-color 0.2s;
+}
+
+ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-width: 1.5px;
+  border-color: #ffffff;
 }
