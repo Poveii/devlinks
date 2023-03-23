@@ -41,6 +41,10 @@ function App() {
           <ion-icon name="logo-linkedin"></ion-icon>
         </a>
       </div>
+
+      <footer>
+        Feito com ♥ pelo <a href="https://github.com/poveii">Poveii</a>
+      </footer>
     </div>
   );
 }

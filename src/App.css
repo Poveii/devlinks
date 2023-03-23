@@ -78,3 +78,9 @@ ul li a:hover {
 #social-links a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
+
+footer {
+  padding-block: 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
