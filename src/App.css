@@ -1,7 +1,33 @@
 @import "./reset.css";
 
+:root {
+  --text-color: #ffffff;
+  --bg-image: url(./assets/bg-mobile.jpg);
+  --stoke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.1);
+  --surface-color-hover: rgba(255, 255, 255, 0.5);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --switch-bg-url: url(./assets/moon-stars.svg);
+}
+
+:root.light {
+  --text-color: #000000;
+  --bg-image: url(./assets/bg-mobile-light.jpg);
+  --stoke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.1);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(./assets/sun.svg);
+}
+
 body {
-  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+  background: var(--bg-image) no-repeat top center/cover;
+}
+
+body,
+a,
+p {
+  color: var(--text-color);
 }
 
 .App {
@@ -38,8 +64,8 @@ ul li a {
   justify-content: center;
   padding: 1rem 1.5rem;
 
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: var(--surface-color);
+  border: 1px solid var(--stoke-color);
   border-radius: 8px;
 
   -webkit-backdrop-filter: blur(4px);
@@ -52,9 +78,9 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: var(--surface-color-hover);
   border-width: 1.5px;
-  border-color: #ffffff;
+  border-color: var(--text-color);
 }
 
 #social-links {
@@ -76,7 +102,7 @@ ul li a:hover {
 }
 
 #social-links a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: var(--highlight-color);
 }
 
 footer {
