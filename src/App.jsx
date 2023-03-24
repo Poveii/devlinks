@@ -12,6 +12,11 @@ function App() {
         <p>@poveii</p>
       </div>
 
+      <div id="switch">
+        <button></button>
+        <span></span>
+      </div>
+
       <ul>
         <li>
           <a href="#">Meu currículo</a>
