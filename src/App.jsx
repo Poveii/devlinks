@@ -1,18 +1,31 @@
-import Avatar from "./assets/avatar.png"
+import { useState } from "react"
+
+import AvatarDark from "./assets/avatar.png"
+import AvatarLight from "./assets/avatar-light.png"
+
 import "./App.css"
 
 function App() {
+  const [avatar, setAvatar] = useState(AvatarDark)
+  
+  function handleSwitchThemeMode() {
+    document.documentElement.classList.toggle("light")
+    setAvatar((actualAvatar) => {
+      return actualAvatar === AvatarDark ? AvatarLight : AvatarDark
+    })
+  }
+
   return (
     <div className="App">
       <div id="profile">
         <img
-          src={Avatar}
+          src={avatar}
           alt="Foto do Pablo Gabriel olhando pra câmera de camisa branca sorrindo sem mostrar os dentes, com um fundo azul por trás"
         />
         <p>@poveii</p>
       </div>
 
-      <div id="switch">
+      <div id="switch" onClick={handleSwitchThemeMode}>
         <button></button>
         <span></span>
       </div>
