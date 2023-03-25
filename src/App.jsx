@@ -1,5 +1,5 @@
-import Avatar from "./assets/avatar.png";
-import "./App.css";
+import Avatar from "./assets/avatar.png"
+import "./App.css"
 
 function App() {
   return (
@@ -51,7 +51,7 @@ function App() {
         Feito com ♥ pelo <a href="https://github.com/poveii">Poveii</a>
       </footer>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
